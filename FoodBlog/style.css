@@ -1,0 +1,156 @@
+/* 
+=== Colors & Typography === 
+Nav - Helvetica Bold 18pt #cdcdcd
+Splash - Teko Semibold 72pt
+H2 - Helvetica Bold 24pt (Leading 18pt)
+P - Helvetica Regular 14pt
+Aside - Leading 22pt
+Footer - Helvetica Oblique 10pt
+
+Ad - Background #ff0000
+Nav and Footer - #000
+Articles and Aside - #cdcdcd
+
+*/
+
+* {
+    margin: 0;
+}
+
+/* Typography and Colors */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000;
+}
+
+nav a {
+    color: #cdcdcd;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+h2 {
+    margin-bottom: 18pt;
+}
+
+#splash h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    color: #000;
+}
+
+aside ul {
+    list-style-type: none;
+    line-height: 22pt;
+}
+
+aside a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    color: #ffff;
+    font-size: 10pt;
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+}
+
+header,
+footer {
+    background-color: #000;
+}
+
+#container {
+    background-color: #cdcdcd;
+}
+
+#splash {
+    background-image: url(heading.jpg);
+    background-size: cover;
+}
+
+#ad {
+    background-color: #ff0000;
+}
+
+/* === Box Model === */
+
+#splash {
+    height: 400px;
+}
+
+nav,
+footer,
+#foodarticles {
+    padding: 30px;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+#logo {
+    margin-top: 30px;
+}
+
+article {
+    margin-bottom: 30px
+}
+
+aside {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#ad {
+    padding: 35px;
+}
+
+/* === Layout === */
+
+.floatleft {
+    float: left;
+    margin-right: 25px;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column: 1 / 3;
+    padding-top: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#ad {
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    width: 400px;
+}
