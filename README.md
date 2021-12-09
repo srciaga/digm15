@@ -13,3 +13,6 @@ Assignments
 
 Choose Your Own Adventure Website: Scaredy Cat
 https://srciaga.github.io/ScaredyCat/index.html
+
+Assignment 3: Small Business / Non-Profit Website: its.clay.day
+https://srciaga.github.io/ItsClayDay/index.html
