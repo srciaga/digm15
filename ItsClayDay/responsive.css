@@ -196,16 +196,7 @@
     #product-info {
         height: 56.25rem
     }
-
-    main {
-        grid-template-columns: 100%
-    }
-
-    main footer {
-        margin-top: 26.8125rem;
-    }
 }
-
 
 /* Small Screens */
 @media screen and (min-width:481px) and (max-width:900px) {

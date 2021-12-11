@@ -40,7 +40,7 @@ H2 - FreightNeo bold
 body {
     font-family: calibri, sans-serif;
     font-style: normal;
-    font-size: 1.0625rem;
+    font-size: 17px;
     background-color: #FBF7F2;
     color: #674F44;
 }
@@ -54,13 +54,13 @@ a:hover {
 }
 
 nav a {
-    letter-spacing: .1875rem;
+    letter-spacing: 3px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    letter-spacing: .1875rem;
+    letter-spacing: 3px;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -68,7 +68,7 @@ nav a:hover {
 h1 {
     font-family: swear-display, serif;
     font-weight: 700;
-    font-size: 3.125rem;
+    font-size: 50px;
     color: #4E2F20;
 }
 
@@ -76,7 +76,7 @@ h2 {
     font-family: freight-neo-pro, sans-serif;
     font-weight: 700;
     color: #4E2F20;
-    font-size: 1.5625rem;
+    font-size: 25px;
 }
 
 /* Homepage Banner */
@@ -87,17 +87,17 @@ h2 {
 }
 
 #home-banner h1 {
-    font-size: 5rem;
-    padding-bottom: 1.875rem;
+    font-size: 80px;
+    padding-bottom: 30px;
 }
 
 #home-banner .fas {
-    margin-left: .3125rem;
-    font-size: .75rem;
+    margin-left: 5px;
+    font-size: 12px;
 }
 
 #home-banner a {
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 
 #home-banner a:hover {
@@ -111,15 +111,15 @@ h2 {
 }
 
 h2 .fas {
-    margin-left: .3125rem;
-    font-size: .9375rem;
+    margin-left: 5px;
+    font-size: 15px;
 }
 
 /* Footer */
 
 .fab {
     color: #4E2F20;
-    font-size: 1.875rem;
+    font-size: 30px;
 }
 
 .fab:hover {
@@ -129,7 +129,7 @@ h2 .fas {
 /* Homepage Images */
 
 .logo img {
-    width: 15.625rem;
+    width: 250px;
 }
 
 #home-banner {
@@ -137,11 +137,11 @@ h2 .fas {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
 }
 
 .home-photo img {
-    width: 31.25rem;
+    width: 500px;
 }
 
 #home-photo1 {
@@ -149,7 +149,7 @@ h2 .fas {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
 }
 
 #home-photo2 {
@@ -157,62 +157,62 @@ h2 .fas {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
 }
 
 /* Box Model */
 
 nav {
-    border: .09375rem solid #674F44;
-    height: 4.375rem;
+    border: 1.5px solid #674F44;
+    height: 70px;
     background-color: #FBF7F2;
 }
 
 nav a {
-    padding-right: 1.25rem;
+    padding-right: 20px;
 }
 
 .logo {
-    padding-left: 1.5625rem;
-    padding-right: 1.5625rem;
-    margin-top: .625rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
 }
 
 #home-banner {
-    height: 40.625rem;
+    height: 650px;
 }
 
 .section-title {
-    height: 6.25rem;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 4.375rem;
+    padding: 70px;
 }
 
 #instagram-link .section-title {
-    padding-bottom: 2.5rem;
+    padding-bottom: 40px;
 }
 
 .section-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 4.0625rem;
+    padding-bottom: 65px;
 }
 
 #home-photos {
-    height: 34.375rem;
+    height: 550px;
 }
 
 footer {
     background-color: #D6AC70;
-    padding: .625rem;
+    padding: 10px;
     text-align: center;
     position: static;
     bottom: 0;
-    font-size: .75rem;
+    font-size: 12px;
 }
 
 /* Layout */
@@ -230,7 +230,7 @@ nav {
 }
 
 main {
-    margin-top: 4.375rem;
+    margin-top: 70px;
     width: 100%;
 }
 
@@ -254,48 +254,48 @@ main {
 }
 
 .home-teacupsimage {
-    height: 25rem;
+    height: 400px;
     background-image: url(Images/home-teacup.png);
-    background-size: 12.5rem;
+    background-size: 200px;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     grid-column: 1 / 3;
 }
 
 .home-teacupsimage:hover {
     background-image: url(Images/teacup-hover.gif);
-    background-size: 20rem;
+    background-size: 320px;
     background-color: #e9e0d7;
 }
 
 .home-platesimage {
     background-image: url(Images/home-plates.png);
-    background-size: 18.75rem;
+    background-size: 300px;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     grid-column: 3 / 5;
 }
 
 .home-platesimage:hover {
     background-image: url(Images/plates-hover.gif);
-    background-size: 26.25rem;
+    background-size: 420px;
     background-color: #e9e0d7;
 }
 
 .home-cliffhandleimage {
     background-image: url(Images/home-cliffhandle.png);
-    background-size: 12.5rem;
+    background-size: 200px;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     grid-column: 5 / 8;
 }
 
 .home-cliffhandleimage:hover {
     background-image: url(Images/cliff-hover.gif);
-    background-size: 20rem;
+    background-size: 320px;
     background-color: #e9e0d7;
 }
 
@@ -331,8 +331,8 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 1.25rem;
-    border: .09375rem solid #674F44;
+    padding: 20px;
+    border: 1.5px solid #674F44;
 }
 
 .price {
@@ -360,9 +360,9 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     grid-column: 1 / 4;
-    height: 43.75rem;
+    height: 700px;
 }
 
 #about-text {
@@ -370,14 +370,14 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     grid-column: 4 / 7;
-    height: 43.75rem;
+    height: 700px;
 }
 
 #about-text p {
-    margin-top: 2.5rem;
-    width: 28.125rem;
+    margin-top: 40px;
+    width: 450px;
 }
 
 #about-photo2 {
@@ -385,9 +385,9 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     grid-column: 1 / 3;
-    height: 25rem;
+    height: 400px;
 }
 
 #about-photo3 {
@@ -395,9 +395,9 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     grid-column: 3 / 5;
-    height: 25rem;
+    height: 400px;
 }
 
 #about-photo4 {
@@ -405,67 +405,67 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     grid-column: 5 / 7;
-    height: 25rem;
+    height: 400px;
 }
 
 /* TEACUP PAGE */
 
 #product-page {
     display: grid;
-    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.68%;
-    grid-template-rows: 33% 33% 33%;
-    grid-template-areas:
-        "product-photo1 product-photo1 product-photo1 product-info product-info product-info"
-        "product-photo1 product-photo1 product-photo1 product-info product-info product-info"
-        "product-photo2 product-photo3 product-photo4 product-info product-info product-info";
-    height: 56.25rem;
+    grid-template-columns: 50% 50%;
+    height: 100fr;
+}
+
+#product-photos {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 70% 30%;
 }
 
 #product-photo1 {
-    grid-area: product-photo1;
+    grid-column: 1 / 4;
     background-image: url(Images/product-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
 }
 
 #product-photo2 {
-    grid-area: product-photo2;
+    grid-column: 1 / 2;
     background-image: url(Images/product-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
 }
 
 #product-photo3 {
-    grid-area: product-photo3;
+    grid-column: 2 / 3;
     background-image: url(Images/product-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
 }
 
 #product-photo4 {
-    grid-area: product-photo4;
+    grid-column: 3 / 4;
     background-image: url(Images/product-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
 }
 
 #product-info {
-    grid-area: product-info;
-    border: .09375rem solid #674F44;
+    border: 1.5px solid #674F44;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: scroll;
+    height: 56.25rem;
 }
 
 #product-info div {
@@ -473,7 +473,7 @@ main {
 }
 
 .product-specs {
-    padding: .625rem 1.25rem;
+    padding: 10px 20px;
 }
 
 .product-button {
@@ -482,7 +482,7 @@ main {
     justify-content: center;
     color: #FBF7F2;
     background-color: #829796;
-    padding: 1.5625rem;
+    padding: 25px;
 }
 
 .product-button:hover {
@@ -501,8 +501,8 @@ main {
 }
 
 .pricetitle {
-    margin-top: 1.875rem;
-    margin-bottom: 1.25rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .product-specs {
@@ -513,22 +513,22 @@ main {
 /* FAQ Page */
 
 #faq {
-    border: .09375rem solid #674F44;
-    margin: 2.5rem 31.25rem;
+    border: 1.5px solid #674F44;
+    margin: 40px 500px;
     width: 100%;
     margin: auto;
 }
 
 #faq-shipping,
 #faq-care {
-    border-bottom: .09375rem solid #e9e0d7;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    border-bottom: 1.5px solid #e9e0d7;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #faq-other {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #faq-shipping,
@@ -541,5 +541,5 @@ main {
 
 .faq-width p,
 .faq-width h2 {
-    width: 50rem;
+    width: 800px;
 }
