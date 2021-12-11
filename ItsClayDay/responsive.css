@@ -392,10 +392,6 @@
     main {
         grid-template-columns: 100%
     }
-
-    main footer {
-        margin-top: 26.8125rem;
-    }
 }
 
 /* Larger Screens */
