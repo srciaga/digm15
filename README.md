@@ -1,18 +1,10 @@
 # srciaga.github.io
-Labs for DIGM15
+!(Portfolio)[https://drive.google.com/uc?id=1A0W0dL38F6ar_xt_5NpEDOg3CjfzmWJ0]
 
-Toy Store
-https://srciaga.github.io/ToyStore/toystore.html
+https://drive.google.com/uc?id=1A0W0dL38F6ar_xt_5NpEDOg3CjfzmWJ0
 
-Food Blog
-https://srciaga.github.io/FoodBlog/foodblog.html
+https://srciaga.github.io/index.html
 
----
-
-Assignments
-
-Choose Your Own Adventure Website: Scaredy Cat
-https://srciaga.github.io/ScaredyCat/index.html
-
-Assignment 3: Small Business / Non-Profit Website: its.clay.day
-https://srciaga.github.io/ItsClayDay/index.html
+Labs and assignments for DIGM15!
+Fall 2021
+Instructor: David Hurwich
