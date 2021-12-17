@@ -1,5 +1,5 @@
 # srciaga.github.io
-!(Portfolio)[https://i.imgur.com/sf7MJwZ.png]  
+![Portfolio](https://i.imgur.com/sf7MJwZ.png)    
 
 https://srciaga.github.io/index.html  
 
